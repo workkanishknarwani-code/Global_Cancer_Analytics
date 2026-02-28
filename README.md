@@ -111,7 +111,7 @@ Global_Cancer_Analytics/
 │
 ├── data/
 ├── figures/
-├── project_analysis.py
+├── project1.py
 ├── requirements.txt
 └── README.md
 
@@ -120,13 +120,13 @@ Global_Cancer_Analytics/
 ## HOW TO RUN
 
 1. Clone repository
-   git clone https://github.com/yourusername/Global_Cancer_Analytics.git
+   git clone https://github.com/workkanishknarwani-code/Global_Cancer_Analytics.git
 
 2. Install dependencies
    pip install -r requirements.txt
 
 3. Run script
-   python project_analysis.py
+   python project1.py
 
 ---
 
