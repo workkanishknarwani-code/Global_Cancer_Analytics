@@ -1,0 +1,146 @@
+# GLOBAL CANCER ANALYTICS
+## Severity • Survival • Economic Burden Modeling (2015–2024)
+
+---
+
+## PROJECT SUMMARY
+
+A full-scale data analytics and machine learning project analyzing 50,000+ global cancer patient records across 10 countries.
+
+This project combines:
+- Exploratory Data Analysis (EDA)
+- Statistical hypothesis testing
+- Interaction modeling
+- Machine Learning (Random Forest)
+- Economic burden assessment
+
+The objective is to extract clinically and economically meaningful insights from structured healthcare data.
+
+---
+
+## PROBLEM STATEMENT
+
+Can we identify:
+
+- Key drivers of cancer severity?
+- Predictors of survival duration?
+- Economic disparities across countries?
+- Whether treatment cost improves survival?
+- Whether genetic risk amplifies smoking effects?
+
+This project answers these using statistical rigor and ML modeling.
+
+---
+
+## TECH STACK
+
+Python  
+Pandas  
+NumPy  
+Matplotlib  
+Seaborn  
+SciPy  
+Statsmodels  
+Scikit-learn  
+
+---
+
+## EXPLORATORY DATA ANALYSIS
+
+- Age distribution visualization  
+- Gender representation  
+- Country-level comparison  
+- Cancer type & stage frequency  
+- Treatment cost distribution  
+- Risk factor statistical profiling  
+
+---
+
+## STATISTICAL ANALYSIS
+
+Applied:
+
+- Pearson & Spearman Correlation
+- Shapiro Normality Testing
+- ANOVA
+- Kruskal–Wallis Test
+- Multiple Linear Regression (with interaction term)
+
+Key Findings:
+
+• Smoking and Genetic Risk significantly predict severity  
+• No strong correlation between Treatment Cost and Survival  
+• No statistically significant Genetic Risk × Smoking interaction  
+• Stage progression did not significantly alter survival in this dataset  
+
+---
+
+## MACHINE LEARNING MODELING
+
+Model: Random Forest Regressor
+
+Target Variables:
+- Target_Severity_Score
+- Survival_Years
+
+Performance (Severity Model):
+- Train R² ≈ 0.96
+- Test R² ≈ 0.77
+
+Top Predictors:
+1. Smoking
+2. Genetic Risk
+3. Treatment Cost
+4. Alcohol Use
+5. Air Pollution
+
+---
+
+## ECONOMIC BURDEN ANALYSIS
+
+• Significant treatment cost variation across countries  
+• Higher costs observed in developed healthcare systems  
+• Minimal gender-based pricing disparity  
+• Treatment cost not significantly associated with longer survival  
+
+---
+
+## PROJECT STRUCTURE
+
+Global_Cancer_Analytics/
+│
+├── data/
+├── figures/
+├── project_analysis.py
+├── requirements.txt
+└── README.md
+
+---
+
+## HOW TO RUN
+
+1. Clone repository
+   git clone https://github.com/yourusername/Global_Cancer_Analytics.git
+
+2. Install dependencies
+   pip install -r requirements.txt
+
+3. Run script
+   python project_analysis.py
+
+---
+
+## FUTURE IMPROVEMENTS
+
+• Deploy interactive dashboard (Streamlit)
+• Add SHAP interpretability
+• Improve survival modeling
+• Build API endpoint for predictions
+
+---
+
+## AUTHOR
+
+Kanishk Narwani
+
+---
